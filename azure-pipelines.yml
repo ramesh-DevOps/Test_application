@@ -2,7 +2,7 @@ trigger:
 - main  # Adjust according to your branch
 
 variables:
-  azureSubscription: 'Ramesh_test_acr'  # Name of the Azure service connection
+  azureSubscription: 'Ramesh-acr-test'  # Name of the Azure service connection
   azureContainerRegistry: 'testcon'  # Name of your Azure Container Registry
   imageName: 'my-node-app'
   dockerfilePath: 'Dockerfile'
